@@ -4,7 +4,7 @@ print("Im your new king")
 """
 from operator import truediv
 
-#Greatness = "senthur"
+#Greatness = "kumaran"
 #goat = "you are peak"
 #print(f"hello {Greatness}")
 #print(f"goat {goat}")
@@ -21,7 +21,7 @@ from operator import truediv
 #     print(f"dont eat")
 
 # num = 123
-# name = "Senthur"
+# name = "kumaran"
 # decimal = 12.23
 # good = True
 # age = 25
