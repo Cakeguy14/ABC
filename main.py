@@ -2,7 +2,9 @@
 print("Hello World")
 print("Im your new king")
 """
+import math
 from operator import truediv
+from xmlrpc.server import MultiPathXMLRPCServer
 
 #Greatness = "kumaran"
 #goat = "you are peak"
@@ -51,11 +53,40 @@ from operator import truediv
 # print(f"you have bought {quantity} x {item}/s")
 # print(f"for ${total}")
 
-A = input("enter an object: ")
-B = input("enter a verb: ")
-C = input("enter a verb: ")
-D = input("enter a noun: ")
+# A = input("enter an object: ")
+# B = input("enter a verb: ")
+# C = input("enter a verb: ")
+# D = input("enter a noun: ")
+#
+# print(f"Life sometimes throws {A} at your door step")
+# print(f"if you {B} that dont {C} it")
+# print(f"it all was in the {D}")
+import math
+# radius = float(input("Enter radius: "))
+# circumference = 2 * math.pi * radius
+# print(f"The circumference of the circle is: {circumference}")
 
-print(f"Life sometimes throws {A} at your door step")
-print(f"if you {B} that dont {C} it")
-print(f"it all was in the {D}")
+
+
+# R = float(input("Enter Radius: "))
+# A = math.pi * pow(R,2)
+# print(f"{round(A, 2)}")
+
+# c=a²+b²
+#
+# A = float(input("enter A: "))
+# B = float(input("enter b: "))
+# C = math.sqrt(pow(A, 2)+pow(B, 2))
+# print(C)
+
+
+
+Response = input("Enter yes or no: ")
+
+if Response == yes:
+    print("you got it sir")
+else:
+    print("ok thanks for answering")
+
+
+
