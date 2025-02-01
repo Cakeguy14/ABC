@@ -44,17 +44,17 @@ for die in range(int(roll_num)):
     dice.append(random.randint(1, 6))
 print(dice)
 
-for die in range(int(roll_num)):
-    for line in dice_art.get(dice[die]):
-        print(line)
+# for die in range(int(roll_num)):
+#     for line in dice_art.get(dice[die]):
+#         print(line)
 
-# for line in range(5):
-#     for die in dice:
-#         print(dice_art.get(die)[line], end="")
-#     print()
+for line in range(5):
+    for die in dice:
+        print(dice_art.get(die)[line], end="")
+    print()
 
 
-print(line)
+# print(line)
 
 for die in dice:
     total += die
