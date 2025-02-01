@@ -636,24 +636,76 @@ cart = ({"Fruits", "Vegetables", "Bread", "Meat"},
 #         print("Wrong")
 
 
+# """this is my first python program
+# print("Hello World")
+# print("Im your new king")
+# """
+# from operator import truediv
+
+# #Greatness = "senthur"
+# #goat = "you are peak"
+# #print(f"hello {Greatness}")
+# #print(f"goat {goat}")
+# #price = 12.44
+
+# #
+# # print(f"per cake ${price}")
+# #
+# # is_good = True
+# #
+# # if is_good:
+# #     print(f"ok to eat")
+# # else:
+# #     print(f"dont eat")
+
+# num = 123
+# name = "Senthur"
+# decimal = 12.23
+# good = True
+
+# # print(type(decimal))
+
+# # num = int(num)
+# # num = int(num)
+# #TODO: Reinilization
+# name = float(num)
+# name += 1
+# print(name)
+
+# // TODO:
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+#todo food self-order program
+#
+# Menu = {"Icecream": 100,
+#         "Fries": 150,
+#         "Burger": 200,
+#         "Pizza": 250,
+#         "Drinks": 300}
+#
+# Order = []
+# total = 0
+#
+# print("---------------")
+# for key, value in Menu.items():
+#     print(f"{key:10}: ${value:.2f}")
+# print("---------------")
+#
+# while True:
+#     food = input("Enter food name: ").lower()  # Convert input to match the case of dictionary keys
+#     if food == "q":  # Quit condition
+#         print("Thank you for your order")
+#         break
+#     elif Menu.get(food) is not None:  # todo this will check if food is not there then will return none or not take into account
+#         Order.append(food)  # todo bring the food into the order list given by user
+#
+#
+# print("---your food----")
+# for food in Order:
+#     total += Menu.get(food)  # todo total = total + Menu[food]
+#     print(food)
+# print()
+# print(f"\ntotal: {total:.2f}")
 
 
 
