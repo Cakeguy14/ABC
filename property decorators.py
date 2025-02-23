@@ -4,8 +4,8 @@
 
 class Rectangle:
     def __init__(self, width, height):
-        self.width = width
-        self.height = height
+        self._width = width
+        self._height = height
 
     @property
     def width(self):
@@ -28,18 +28,23 @@ class Rectangle:
     @width.deleter
     def width(self):
         del self._width
+        print("Width has been deleted")
     @height.deleter
     def height(self):
         del self._height
+        print("Height has been deleted")
 
 rectangle = Rectangle(5, 10)
 
-# print(rectangle._width)
-# print(rectangle._height)
+
 
 rectangle.width = 10
 rectangle.height = 20
 del rectangle.width
 del rectangle.height
+
+print(rectangle.width)
+print(rectangle.height)
+
 
 

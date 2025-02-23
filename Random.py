@@ -33,7 +33,7 @@ while True:
     elif answer > num:
         print("Too high! Try again.")
     else:
-        print("Congratulations! You guessed the number in", guesses)
+        print("Congratulations! You guessed the number in", guesses "guesses")
         running = False
         break
     
